@@ -3,21 +3,20 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Edivaldo Andrade | Portfolio</title>
+<title>Edivaldo Andrade | Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -29,29 +28,23 @@
 
 <nav>
 
-<div class="logo">
+<a class="logo" href="#">
 
-Edivaldo <span>Andrade</span>
+Edivaldo<span>Andrade</span>
 
-</div>
+</a>
 
-<ul>
+<ul class="nav-links">
 
-<li><a href="#">Home</a></li>
-
-<li><a href="#">About</a></li>
-
-<li><a href="#">Projects</a></li>
-
-<li><a href="#">Skills</a></li>
-
-<li><a href="#">The Data Explorer</a></li>
-
-<li><a href="#">Contact</a></li>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
 
-<div class="socials">
+<div class="nav-icons">
 
 <a href="https://github.com/ValdoAndrade" target="_blank">
 
@@ -65,13 +58,13 @@ Edivaldo <span>Andrade</span>
 
 </a>
 
-<a href="https://youtube.com/@Valdothedataexplorer" target="_blank">
+<a href="https://www.youtube.com/@Valdothedataexplorer" target="_blank">
 
 <i class="fab fa-youtube"></i>
 
 </a>
 
-<a href="https://tiktok.com/@thedata_explorer" target="_blank">
+<a href="https://www.tiktok.com/@thedata_explorer" target="_blank">
 
 <i class="fab fa-tiktok"></i>
 
@@ -85,7 +78,9 @@ Edivaldo <span>Andrade</span>
 
 </header>
 
-<section class="hero">
+<!-- HERO -->
+
+<section id="home" class="hero">
 
 <div class="container hero-grid">
 
@@ -97,7 +92,7 @@ Data Analyst &
 
 <br>
 
-<span>AI Automation</span>
+AI Automation
 
 <br>
 
@@ -107,15 +102,19 @@ Engineer
 
 <div class="hero-buttons">
 
-<a href="#" class="primary-btn">
+<a href="#projects" class="primary-btn">
 
 View My Projects
 
+<i class="fa-solid fa-arrow-right"></i>
+
 </a>
 
-<a href="#" class="secondary-btn">
+<a href="#contact" class="secondary-btn">
 
 Get In Touch
+
+<i class="fa-solid fa-envelope"></i>
 
 </a>
 
@@ -133,9 +132,9 @@ Get In Touch
 
 <div class="stat">
 
-<div class="icon">
+<div class="stat-icon">
 
-<i class="fa-solid fa-chart-column"></i>
+<i class="fa-solid fa-briefcase"></i>
 
 </div>
 
@@ -143,7 +142,7 @@ Get In Touch
 
 <h2>20+</h2>
 
-<p>Projects Completed</p>
+<p>Projects Delivered</p>
 
 </div>
 
@@ -151,7 +150,7 @@ Get In Touch
 
 <div class="stat">
 
-<div class="icon">
+<div class="stat-icon">
 
 <i class="fa-solid fa-database"></i>
 
@@ -169,7 +168,7 @@ Get In Touch
 
 <div class="stat">
 
-<div class="icon">
+<div class="stat-icon">
 
 <i class="fa-solid fa-users"></i>
 
@@ -177,9 +176,9 @@ Get In Touch
 
 <div>
 
-<h2>1,300+</h2>
+<h2>1300+</h2>
 
-<p>Social Community</p>
+<p>Community</p>
 
 </div>
 
@@ -187,17 +186,17 @@ Get In Touch
 
 <div class="stat">
 
-<div class="icon">
+<div class="stat-icon">
 
-<i class="fa-solid fa-brain"></i>
+<i class="fa-solid fa-graduation-cap"></i>
 
 </div>
 
 <div>
 
-<h2>6+</h2>
+<h2>MSc</h2>
 
-<p>Technologies Used Daily</p>
+<p>Business Analytics</p>
 
 </div>
 
@@ -209,6 +208,118 @@ Get In Touch
 
 </section>
 
-</body>
+<!-- TECHNOLOGIES -->
 
-</html>
+<section class="technology-bar">
+
+<div class="container">
+
+<div class="tech-wrapper">
+
+<span>SQL</span>
+
+<span>Python</span>
+
+<span>Power BI</span>
+
+<span>Excel</span>
+
+<span>Machine Learning</span>
+
+<span>Artificial Intelligence</span>
+
+<span>Databricks</span>
+
+<span>Power Apps</span>
+
+<span>n8n</span>
+
+<span>Make</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>About Me</h2>
+
+<p>
+
+Transforming data into intelligent business solutions through analytics, automation and AI.
+
+</p>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Data Analytics</h3>
+
+<p>
+
+Creating dashboards and insights using SQL, Excel and Power BI.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<i class="fa-solid fa-brain"></i>
+
+<h3>Artificial Intelligence</h3>
+
+<p>
+
+Building machine learning solutions to solve real business problems.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<i class="fa-solid fa-gears"></i>
+
+<h3>Automation</h3>
+
+<p>
+
+Automating repetitive workflows using Python, Power Apps, n8n and Make.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>Fraud Analytics</h3>
+
+<p>
+
+Helping organisations detect, investigate and prevent fraudulent activity.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
