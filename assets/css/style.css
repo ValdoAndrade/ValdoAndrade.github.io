@@ -764,3 +764,47 @@ text-align:center;
 }
 
 }
+
+/*==============================
+SCROLL ANIMATIONS
+==============================*/
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:all .8s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/*==============================
+ACTIVE NAVIGATION
+==============================*/
+
+nav a.active{
+
+    color:#3B82F6;
+
+}
+
+/*==============================
+HEADER SCROLL
+==============================*/
+
+.header-scroll{
+
+    background:rgba(7,20,38,.95);
+
+    box-shadow:0 10px 35px rgba(0,0,0,.35);
+
+}
